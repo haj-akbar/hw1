@@ -1,0 +1,6 @@
+x = int(input("HOW MANY bottles do you less than one liter?"))
+y = int(input("how many bottles do you have more than one liter?"))
+z = (x * 0.10)
+q = (y * 0.25)
+a = (z + q)
+print("you got",a,"dollars now !!")
