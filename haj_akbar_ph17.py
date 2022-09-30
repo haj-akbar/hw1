@@ -1,0 +1,10 @@
+#calculation of the energy required to change the furnace temerature and its cost!!
+the_temerature_now = float(input("Enter the current temperature : "))
+the_temerature_want = float(input("Enter the temperature you want :"))
+mass_material = float(input("Enter the mass material (grams) : "))
+heat_capacity = ( 4.186 )
+delta_T = ( the_temerature_want - the_temerature_now ) 
+Q = (( mass_material * heat_capacity) * delta_T)
+cost = ( (Q * (2.778 * (10 ** -7) )) * 3.9 )
+print("energy : " , Q ,"jouls" )
+print("cost : " , cost , "sent")
