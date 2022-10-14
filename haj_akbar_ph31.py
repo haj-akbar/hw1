@@ -1,0 +1,10 @@
+#The sum of units of a four-digit number!!
+number = int(input("Enter the desired number : "))
+the_first_unit = (number // 1000)
+left_over = (number % 1000)
+the_second_unit = (left_over // 100)
+left_over = (left_over % 100)
+the_third_unit = (left_over // 10)
+left_over = (left_over % 10)
+total = (the_first_unit + the_second_unit + the_third_unit + left_over)
+print ("total : " , total)
