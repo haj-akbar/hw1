@@ -6,6 +6,6 @@ if (number_user >= 3) and (number_user <= 10):
     if q_sum == number_user :
         print("true")
     else:
-        print("eror")
+        print("false")
 else:
-    print("eror")      
+    print("false")      
