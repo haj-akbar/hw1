@@ -1,5 +1,5 @@
 #season from month and day!!!
-season = input("enter season : ")
+season = input("enter month : ")
 day = int(input("enter day : "))
 if (season == "march")  or (season == "april")  or (season == "may") or (season == "june"):
     if (day < 20 ) and (season == "march"):
